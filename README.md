@@ -5,12 +5,17 @@ Front para el proyecto del Hackatón https://lohackeamosentretodos.com/
 **Demo:** https://check-fakes.herokuapp.com/  
   
 ## Herramientas  
-•HTML  
-•CSS (Scss)  
-•Bootstrap  
-•Javascript  
-•Nodejs/Express  
-•Heroku  
+• HTML  
+• CSS (Scss)  
+• Bootstrap  
+• Javascript  
+• Nodejs/Express  
+• Heroku  
+  
+• Python  
+• https://www.kaggle.com/  
+• Jupyter  
+• API Redes Sociales  
   
 # Ejemplo de funcionamiento
 ![Demo 1](https://raw.githubusercontent.com/NachoKai/chequea3/gh-pages/Funcionamiento%201.png)  
@@ -18,7 +23,7 @@ Front para el proyecto del Hackatón https://lohackeamosentretodos.com/
 ![Demo 3](https://raw.githubusercontent.com/NachoKai/chequea3/gh-pages/Funcionamiento%203.png)  
 
 # Integrantes  
-• Matt - hacker, engineer  
+• Matt - Hacker, engineer  
 • Nacho - FrontEnd Dev  
 • Andre - Data y análisis  
 • Fefe - Data Scientist  
