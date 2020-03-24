@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Cheque.ar</title>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+    type="text/css">
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Nav -->
+  <nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="fas fa-check-double"></i><strong>Cheque.ar</strong></a>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">¿Qué deseas chequear?</h1>
+        </div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+          <form>
+            <div class="form-row">
+              <div class="col-12 col-md-9 mb-2 mb-md-0">
+                <input type="text" class="form-control form-control-lg" placeholder="Ingresar link...">
+              </div>
+              <div class="col-12 col-md-3">
+                <button type="button" id="checkear" class="btn btn-block btn-lg btn-success">CHEQUEAR</button>
+              </div>
+
+              <div class="oculto" id="checkeo">
+                <div class="container-check">
+                  <div class="wrapper-check">
+                    <div class="msg-check">Resultado</div>
+                    <div class="icons-check">
+                      <i class="fas fa-times"></i>
+                      <div class="progressBar progressBar-animated">
+                        <span class="progress-check"></span>
+                        <span class="percentage-check">80%</span>
+                      </div>
+                      <i class="fas fa-check"></i>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Proceso -->
+  <section class="features-icons bg-light text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-screen-desktop m-auto text-primary"></i>
+            </div>
+            <h3>Se ingresa el link</h3>
+            <p class="lead mb-0">Desc 1</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-layers m-auto text-primary"></i>
+            </div>
+            <h3>Se realiza el chequeo</h3>
+            <p class="lead mb-0">Desc 2</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-check m-auto text-primary"></i>
+            </div>
+            <h3>Se entrega el resultado</h3>
+            <p class="lead mb-0">Desc 3</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prevencion -->
+  <section class="showcase">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters text-white bg-dark">
+
+        <div class="col-lg-6 order-lg-2 text-white showcase-img"
+          style="background-image: url('img/bg-showcase-1.png');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text ">
+          <h2>Investiga</h2>
+          <p class="lead mb-0">¿Proviene de una fuente confiable?<br>¿Verificaste la fecha de publicación?<br>¿El
+            titular puede ser engañoso?<br>¿Está respaldado por evidencias?<br>De no estarlo, ¿se podrían conseguir?<br>
+          </p>
+        </div>
+      </div>
+      <div class="row no-gutters text-white bg-dark">
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>Consulta</h2>
+          <p class="lead mb-0">¿Cuenta con el apoyo de la mayoría de expertos en el área?<br>¿Puede estar influido por
+            tradiciones o evidencias anecdoticas?<br>¿Las evidencias son de buena calidad? (Ensayos clínicos,
+            meta análisis, etc)<br></p>
+        </div>
+      </div>
+      <div class="row no-gutters text-white bg-dark">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img"
+          style="background-image: url('img/bg-showcase-3.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Piensa</h2>
+          <p class="lead mb-0">¿Tenemos creencias irracionales o emociones que puedan influir en nuestra
+            postura?<br>¿Puede resultar dañino no tener en cuenta las evidencias?<br>¿Podemos actualizar nuestra postura
+            a partir de las evidencias?<br>¿Podemos separar a la persona de la idea?<br>¿Podria nuestra postura estar
+            siendo afectada por tribalismo?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Noso3 -->
+  <section class="testimonials text-center bg-light">
+    <div class="container">
+      <h2 class="mb-5">¿Quienes somos?</h2>
+      <div class="row">
+
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/matt.jpg" alt="">
+            <h5>Matt</h5>
+            <p class="font-weight-light mb-0">Hacker, engineer</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/andre.jpg" alt="">
+            <h5>Andre</h5>
+            <p class="font-weight-light mb-0">Data y análisis</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/nacho.jpg" alt="">
+            <h5>Nacho</h5>
+            <p class="font-weight-light mb-0">Front-end Dev</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/fefe.jpg" alt="">
+            <h5>Fefe</h5>
+            <p class="font-weight-light mb-0">Data Scientist</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item text-white">
+              <a href="https://twitter.com/uadlup">Link1</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item text-white">
+              <a href="https://twitter.com/uadlup">Link2</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item text-white">
+              <a href="https://twitter.com/uadlup">Link3</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item text-white">
+              <a href="https://twitter.com/uadlup">Link4</a>
+            </li>
+          </ul>
+          <p class="small mb-4 mb-lg-0 text-white">&copy;  2020. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a href="https://elgatoylacaja.com.ar/pensar-con-otros/indice/">
+                <i class="fab fa-facebook fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <a href="https://elgatoylacaja.com.ar/pensar-con-otros/indice/">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://elgatoylacaja.com.ar/pensar-con-otros/indice/">
+                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="src/main.js"></script>
+  <script src="public/src/main.js"></script>
+
+</body>
+
+</html>

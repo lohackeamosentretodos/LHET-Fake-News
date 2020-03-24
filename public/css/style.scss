@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+header.masthead {
+    position: relative;
+    background-color: #343a40;
+    background: url('https://raw.githubusercontent.com/NachoKai/chequea3/gh-pages/img/bg-masthead.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+header.masthead h1 {
+    font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+    header.masthead {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+
+    header.masthead h1 {
+        font-size: 3rem;
+    }
+}
+
+.showcase .showcase-text {
+    padding: 3rem;
+}
+
+.showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .showcase .showcase-text {
+        padding: 7rem;
+    }
+}
+
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+    max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+    font-size: 5rem;
+}
+
+.testimonials {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.testimonials .testimonial-item {
+    max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+    max-width: 12rem;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+
+    &:hover {
+        transform: translateY(-3px);
+    }
+}
+
+.call-to-action {
+    position: relative;
+    background-color: #343a40;
+    background: url('../img/bg-masthead.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+footer.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+footer {
+    a {
+        color: white;
+
+        &:hover {
+            color: lightblue;
+        }
+    }
+}
+
+.icons-check {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.fas {
+    margin: 5px;
+    padding: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+$speed:1s;
+$green:#76d574;
+$blue:#3bcbce;
+$background:#2b2d41;
+$white:#ffffff;
+$bodyBackground:#727ab5;
+$fontFamily:'Open Sans',
+sans-serif;
+
+@function rem($value) {
+    @return unquote(($value/1px)/16+"rem");
+}
+
+.container-check {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-check {
+    max-width: 550px;
+    width: 100%;
+    height: auto;
+    padding: rem(20px);
+    background-color: $background;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: rem(4px);
+}
+
+.msg-check {
+    margin-bottom: rem(20px);
+    text-align: center;
+    font-family: $fontFamily;
+    color: $green;
+    font-size: rem(30px);
+}
+
+.progressBar {
+    height: rem(25px);
+    width: rem(500px);
+    border-radius: rem(4px);
+    position: relative;
+    overflow: hidden;
+    background-color: darken($background, 5%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) inset;
+
+    .progress-check {
+        height: 100%;
+        width: 80%;
+        top: 0;
+        left: 0;
+        margin: auto;
+        background-image: linear-gradient(45deg, $blue, $green);
+        display: inline-flex;
+        position: absolute;
+        overflow: hidden;
+        transition: all ease $speed;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background-image: linear-gradient(90deg, transparent, rgba($white, 0.65));
+        }
+    }
+
+    .percentage-check {
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        margin-right: rem(2px);
+        font-family: $fontFamily;
+        color: $white;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: all ease $speed;
+    }
+
+    &-animated {
+        span {
+            &::before {
+                animation: progressAnimation $speed ease infinite;
+            }
+        }
+    }
+}
+
+
+@keyframes progressAnimation {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.oculto {
+    display: none;
+}
+
+.visible {
+    z-index: 99;
+    display: block;
+}
