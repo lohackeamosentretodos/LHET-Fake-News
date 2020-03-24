@@ -16,6 +16,7 @@ Front para el proyecto del Hackatón https://lohackeamosentretodos.com/
 • https://www.kaggle.com/  
 • Jupyter  
 • API Redes Sociales  
+• RStudio  
   
 # Ejemplo de funcionamiento
 ![Demo 1](https://raw.githubusercontent.com/NachoKai/chequea3/gh-pages/Funcionamiento%201.png)  
