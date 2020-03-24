@@ -1,4 +1,4 @@
-# Fake News Check
+# Cheque.ar
 
 Proyecto del Hackatón https://lohackeamosentretodos.com/ 
 
