@@ -24,6 +24,6 @@ Front para el proyecto del Hackatón https://lohackeamosentretodos.com/
 
 # Integrantes  
 • Matt - Hacker, engineer  
-• Nacho - FrontEnd Dev  
+• Nacho - Full-Stack Dev  
 • Andre - Data y análisis  
 • Fefe - Data Scientist  
