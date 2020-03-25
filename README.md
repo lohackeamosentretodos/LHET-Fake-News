@@ -2,7 +2,7 @@
 
 Proyecto del Hackatón https://lohackeamosentretodos.com/ 
 
-**Demo:** https://check-fakes.herokuapp.com/  
+**Demo:** https://nachokai.github.io/chequea3/  
   
 ## Herramientas  
 • HTML  
